@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+ }
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.paginacao{
+    display: flex;
+    justify-content: center;
+}
+.paginacao a {
+  color: rgb(76, 87, 243);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px 15px;
+  text-decoration: none;
+  border: 1px solid rgb(172, 172, 184);
+  font-size: 20px;
+  }
+   .paginacao a:hover:not(.active) {
+  background-color: #dadaddd0;
+  color: white;
+  border: 1px solid #dadaddd0;
+  }
+  
